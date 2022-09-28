@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+header {
+    width: 100vw;
+    height: 729px;
+    background-image: url("/img/art-03.png");
+    background: rgb(68,172,209);
+    background: linear-gradient(90deg, rgba(68,172,209,1) 23%, rgba(81,230,143,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 20px;
+    overflow: hidden;
+}
+
+.header-img-1 {
+    position: relative;
+    top: 3rem;
+    overflow: hidden;
+    /* right: 30rem; */
+}
+
+.logo {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+}
+
+
+.header-img-2 {
+    position: relative;
+    right: 6rem;
+    height: 486px;
+    bottom: 3em;
+}
+
+.header-img-3 {
+    width: 374px;
+    /* height: 107px; */
+    margin: 0 auto;
+}
+
+.img-android-header {
+    width: 240px;
+ 
+}
+
+.text-header {
+    width: 586px;
+    font-size: 22px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.countdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 70px; */
+    /* margin-bottom: 50px; */
+    margin: 70px 0 50px 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    /* width: 30vw; */
+    padding: 10px;
+}
+
+.countdown-num {
+    font-size: 45px;
+    padding: 0px 20px 0 20px;
+    margin: 0;
+
+}
+
+.countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+
+.sub-num {
+    font-size: 12px;
+    margin: 0;
+}
+
+.titulo {
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+.fecha {
+    font-size: 35px;
+    margin: 0 0 50px 0;
+    padding: 0;
+}
+.info-pago {
+    margin-bottom: 80px;
+}
+.pagar-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(244, 244, 244);
+    gap: 1.5rem;
+}
+
+.texto-boton {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    height: 318px;
+    padding-left: 1.5rem;
+}
+
+.btn-info {
+    background-color: #44acd1 !important;
+}
+
+.link-pagar {
+    text-decoration: none;
+    color: #fff;
+}
+
+.foto-titulo {
+    width: 600px;
+}
+
+.boxes {
+    gap: 3rem;
+    margin-bottom: 70px;
+
+}
+
+.box-item {
+    text-align: start;
+}
+
+.img-fluid {
+    width: 400px;
+    margin-bottom: 70px;
+}
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon {
+    position: relative;
+    width: 30px;
+    bottom: 4px;
+    padding-right: 10px;
+}
+
+.box-3-phones {
+    margin-top: 10px;
+}
+
+.text-3 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.img-3-phones {
+    width: 500px;
+}
+
+.video {
+    width: 50vw !important;
+    height: 28vw;
+}
+
+.tarjeta-box {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.tarjeta-text {
+    font-size: 40px;
+}
+
+.tarjeta-item {
+    width: 300px;
+}
+
+.pantallas-text {
+    padding-bottom: 30px;
+}
+
+.pantallas-img {
+    width: 300px;
+}
+
+footer {
+    margin: 0;
+    max-width: 100vw;
+    background: rgb(68,172,209);
+    background: linear-gradient(90deg, rgba(68,172,209,1) 23%, rgba(81,230,143,1) 100%);
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    
+}
+
+.row {
+    margin:0% !important;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+
+    header {
+        height: fit-content;
+    }
+
+
+.header-img-1 {
+display: none;
+max-width: 100vw;
+}
+
+.logo {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+}
+
+.header-img-2 {
+    display: none;
+}
+
+.header-img-3 {
+    width: 60vw;
+
+    margin: 0 auto;
+}
+
+.img-android-header {
+    width: 40vw;
+    
+}
+
+.text-header {
+    width: 80vw;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+    .texto-boton {
+        height: fit-content;
+        margin-bottom: 30px;
+    }
+
+    footer a {
+        font-size: 20px;
+    }
+
+    .video {
+        width: 90vw !important;
+        height: 58vw;
+    }
+
+    .info-pago {
+        max-width: 100vw;
+    }
+    
+    .box-3-phones {
+        display: none !important;
+    }
+ .col-md {
+    padding-left: 10px !important;
+ }
+   .foto-titulo {
+        width: 80vw;
+    }
+}
