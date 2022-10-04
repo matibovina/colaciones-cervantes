@@ -5,15 +5,13 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
-
-
+/* Header y componentes */
 header {
     width: 100vw;
     height: 729px;
     background-image: url("/img/art-03.png");
-    background: rgb(68,172,209);
-    background: linear-gradient(90deg, rgba(68,172,209,1) 23%, rgba(81,230,143,1) 100%);
+    background: rgb(68, 172, 209);
+    background: linear-gradient(90deg, rgba(68, 172, 209, 1) 23%, rgba(81, 230, 143, 1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +52,7 @@ header {
 
 .img-android-header {
     width: 240px;
- 
+
 }
 
 .text-header {
@@ -65,12 +63,14 @@ header {
     padding: 0;
     text-align: start;
 }
+
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .countdown {
     display: flex;
     flex-direction: row;
@@ -111,20 +111,23 @@ section {
     margin: 0;
     padding: 0;
 }
+
 .fecha {
     font-size: 35px;
     margin: 0 0 50px 0;
     padding: 0;
 }
+
 .info-pago {
     margin-bottom: 80px;
 }
+
 .pagar-section {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color:rgb(244, 244, 244);
+    background-color: rgb(244, 244, 244);
     gap: 1.5rem;
 }
 
@@ -165,11 +168,13 @@ section {
     width: 400px;
     margin-bottom: 70px;
 }
+
 .icon-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .icon {
     position: relative;
     width: 30px;
@@ -219,21 +224,22 @@ section {
 footer {
     margin: 0;
     max-width: 100vw;
-    background: rgb(68,172,209);
-    background: linear-gradient(90deg, rgba(68,172,209,1) 23%, rgba(81,230,143,1) 100%);
+    background: rgb(68, 172, 209);
+    background: linear-gradient(90deg, rgba(68, 172, 209, 1) 23%, rgba(81, 230, 143, 1) 100%);
     display: flex;
     align-items: center;
     color: #fff;
+    padding: 20px 0;
 }
 
 footer p {
     font-size: 20px;
     margin: 10px 0 0 0;
-    
+
 }
 
 .row {
-    margin:0% !important;
+    margin: 0% !important;
 }
 
 footer a {
@@ -244,49 +250,49 @@ footer a {
 @media screen and (max-width: 500px) {
 
     header {
-        height: fit-content;
+        padding: 30px;
     }
 
 
-.header-img-1 {
-display: none;
-max-width: 100vw;
-}
+    .header-img-1 {
+        display: none;
+        max-width: 100vw;
+    }
 
-.logo {
-    max-width: 100vw;
-    display: flex;
-    padding-top: 30px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+    .logo {
+        max-width: 100vw;
+        display: flex;
+        /* padding-top: 30px; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
 
-}
+    }
 
-.header-img-2 {
-    display: none;
-}
+    .header-img-2 {
+        display: none;
+    }
 
-.header-img-3 {
-    width: 60vw;
+    .header-img-3 {
+        width: 60vw;
 
-    margin: 0 auto;
-}
+        margin: 0 auto;
+    }
 
-.img-android-header {
-    width: 40vw;
-    
-}
+    .img-android-header {
+        width: 40vw;
 
-.text-header {
-    width: 80vw;
-    font-size: 20px;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
+    }
+
+    .text-header {
+        width: 80vw;
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
 
     .texto-boton {
         height: fit-content;
@@ -305,14 +311,72 @@ max-width: 100vw;
     .info-pago {
         max-width: 100vw;
     }
-    
+
     .box-3-phones {
         display: none !important;
     }
- .col-md {
-    padding-left: 10px !important;
- }
-   .foto-titulo {
+
+    .col-md {
+        padding-left: 10px !important;
+    }
+
+    .foto-titulo {
         width: 80vw;
     }
+}
+
+@media screen and (max-width: 1280px) {
+
+    header {
+        height: fit-content;
+        padding: 40px 0;
+    }
+
+
+    .header-img-1 {
+        display: none;
+        max-width: 100vw;
+    }
+
+    .logo {
+        max-width: 100vw;
+        display: flex;
+        padding-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+    }
+
+    .header-img-2 {
+        display: none;
+    }
+
+    .header-img-3 {
+        width: 40vw;
+
+        margin: 0 auto;
+    }
+
+    .img-android-header {
+        width: 30vw;
+
+    }
+
+    .text-header {
+        width: 60vw;
+        font-size: 25px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .video {
+        width: 90vw !important;
+        height: 58vw;
+    }
+
+
 }
